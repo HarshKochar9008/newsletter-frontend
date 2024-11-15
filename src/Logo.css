@@ -1,0 +1,24 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 8px);
+    grid-template-rows: repeat(3, 8px);
+    gap: 2px;
+}
+
+.grid-box {
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
